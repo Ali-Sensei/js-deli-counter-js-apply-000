@@ -21,9 +21,9 @@ function currentLine (arr)
     return "The line is currently empty."
   }
   
-  // ORIGINAL ARRAY IS BEING MUTATED
+  // ORIGINAL ARRAY IS BEING MUTATED  =BAD
   // Makes a copy of the array
-  var newArr = [...arr];
+  var newArr = [];
   var currentPosition = 1;
   for (let i = 0; i < arr.length; i++)
   {

@@ -21,15 +21,13 @@ function currentLine (arr)
     return "The line is currently empty."
   }
   
-// WILL ADDITIONS
-// 
   var currentPosition = 1;
   for (let i = 0; i < arr.length; i++)
   {
+    // ORIGINAL ARRAY IS BEING MUTATED
     arr[i] = currentPosition + ". " + arr[i];
     currentPosition++;
   }
   var s = arr.join(", ");
   return "The line is currently: " + s;
-  
 }

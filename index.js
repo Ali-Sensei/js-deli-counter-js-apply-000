@@ -1,9 +1,23 @@
+let counter = 0;
+
+function takeANumber (arr)
+{
+  // customer comes in, takes a number
+  // increment number
+  // sysstem reads welcome message
+  counter++;
+  arr.push(counter);
+  return "Welcome, You are number " + counter;
+}
+// return Welcome. You are number: ?
+/*
 function takeANumber (arr, name)
 {
   arr.push(name);
   var position = arr.indexOf(name, 0) + 1;
   return "Welcome, " + name + ". You are number " + position + " in line."
 }
+*/
 
 function nowServing (arr)
 {

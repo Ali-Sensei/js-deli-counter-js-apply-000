@@ -4,12 +4,12 @@ function takeANumber (arr)
 {
   // customer comes in, takes a number
   // increment number
-  // sysstem reads welcome message
+  // system reads welcome message
   counter++;
   arr.push(counter);
   return "Welcome, You are number " + counter;
 }
-// return Welcome. You are number: ?
+
 /*
 function takeANumber (arr, name)
 {

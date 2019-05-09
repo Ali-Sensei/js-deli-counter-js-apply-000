@@ -21,6 +21,8 @@ function currentLine (arr)
     return "The line is currently empty."
   }
   
+// WILL ADDITIONS
+// 
   var currentPosition = 1;
   for (let i = 0; i < arr.length; i++)
   {
